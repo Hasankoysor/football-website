@@ -1,3 +1,143 @@
-h1 {
-  color: red;
+/*---------------------------------
+      Regular Tag and Fonts
+-------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*------------------------
+    
+     Players Profile
+
+------------------- */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 1050px;
+  height: 1977px;
+}
+.player-profile {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 27px;
+  background: #ffffff;
+}
+
+.players {
+  box-shadow: 0px 0px 20px #ccc;
+  padding: 15px;
+  align-items: center;
+}
+.players img {
+  width: 300px;
+  height: 256px;
+}
+.player-name {
+  width: 300px;
+  font-weight: 700;
+  font-size: 28px;
+  margin: 0px;
+}
+.player-info {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0px;
+}
+/* ---------------------
+
+     Blog Section
+          
+----------------------- */
+
+.container_2 {
+  width: 1102px;
+  height: 427px;
+}
+
+.blogs {
+  display: flex;
+}
+.blog-detail {
+  margin-right: 66px;
+  padding: 5px;
+}
+.blog-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0px;
+}
+/* .blog-detail a {
+  text-decoration: none;
+  background-color: #e02c6d;
+  color: #ffffff;
+  width: 200px;
+  height: 200px;
+} */
+.blog-detail .blog-button {
+  text-decoration: none;
+  display: inline-block;
+  background: linear-gradient(45deg, #87adfe, #ff77cd);
+  border-radius: 6px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  color: #fff;
+  box-shadow: 3px 8px 22px rgba(red, green, blue, alpha);
+}
+
+.blog-info {
+  margin: 0px;
+  margin-bottom: 24px;
+}
+.blogs img {
+  width: 567px;
+  height: 427px;
+}
+/*------------------------
+
+   Footer Style
+
+------------------------ */
+
+.footer-detail {
+  text-decoration: none;
+  text-align: center;
+  margin-top: 100px;
+}
+.footer-detail img {
+  width: 483px;
+  height: 110px;
+}
+.footer-icon {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.footer-icon ul {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.footer-icon ul li {
+  display: inline-block;
+  font-size: 20px;
+  color: #ccc;
+  width: 32px;
+  height: 32px;
+
+  margin: 0px 10px;
+  border-radius: 10px;
+}
+.fab {
+  color: #ccc;
+}
+
+.footer-text {
+  text-decoration: none;
 }
