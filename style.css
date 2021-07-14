@@ -5,7 +5,58 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+/* --------------------Header Section ---------------------------- */
 
+header {
+  height: 670px;
+  width: 100%;
+  background-color: #2d25a0;
+  margin-bottom: 65px;
+}
+
+.top-blog-title {
+  font-size: 60px;
+  font-weight: 900;
+  margin: 0px;
+  color: #ffffff;
+}
+.top-blogs-detail {
+  display: flex;
+}
+.top-blog-info {
+  margin-top: 240px;
+  margin-left: 156px;
+  margin-bottom: 240px;
+}
+
+.top-blog-button {
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #e02c6d;
+  background-color: #e02c6d;
+  border-radius: 30px;
+  padding: 10px 24px;
+  box-sizing: border-box;
+  color: #fff;
+  box-shadow: 0px 0px 20px red;
+  cursor: pointer;
+}
+
+.top-blog-button:hover i {
+  transform: translate(15px, 0);
+  padding-right: 3px;
+  transition: 0.4s ease;
+}
+.top-blog-banner {
+  margin-top: 150px;
+  margin-bottom: 86px;
+  margin-right: 140px;
+  margin-left: 100px;
+}
+.top-blog-banner img {
+  width: 556px;
+  height: 438px;
+}
 /*------------------------
     
      Players Profile
@@ -15,6 +66,8 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 .container {
@@ -68,27 +121,29 @@ main {
   margin-right: 66px;
   padding: 5px;
 }
-.blog-title {
+.blog-title,
+.top-blog-title {
   font-size: 48px;
   font-weight: bold;
   margin: 0px;
 }
-/* .blog-detail a {
-  text-decoration: none;
-  background-color: #e02c6d;
-  color: #ffffff;
-  width: 200px;
-  height: 200px;
-} */
-.blog-detail .blog-button {
+
+.blog-button {
   text-decoration: none;
   display: inline-block;
-  background: linear-gradient(45deg, #87adfe, #ff77cd);
-  border-radius: 6px;
-  padding: 10px 20px;
+  border: 1px solid #e02c6d;
+  background-color: #e02c6d;
+  border-radius: 30px;
+  padding: 10px 24px;
   box-sizing: border-box;
   color: #fff;
-  box-shadow: 3px 8px 22px rgba(red, green, blue, alpha);
+  box-shadow: 0px 0px 20px red;
+  cursor: pointer;
+}
+.blog-button:hover i {
+  transform: translate(15px, 0);
+  padding-right: 3px;
+  transition: 0.4s ease;
 }
 
 .blog-info {
@@ -127,17 +182,12 @@ main {
 .footer-icon ul li {
   display: inline-block;
   font-size: 20px;
-  color: #ccc;
   width: 32px;
   height: 32px;
-
+  background-color: rgb(11, 12, 23, 0.1);
   margin: 0px 10px;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 .fab {
   color: #ccc;
-}
-
-.footer-text {
-  text-decoration: none;
 }
