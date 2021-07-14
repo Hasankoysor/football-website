@@ -7,6 +7,46 @@ body {
 }
 /* --------------------Header Section ---------------------------- */
 
+/*------------------ Navigation Var ------------------ */
+
+nav {
+  height: 44px;
+  width: 100%;
+  padding-top: 58px;
+}
+.Nav-container {
+  display: flex;
+  justify-content: space-around;
+}
+nav ul {
+  display: inline-block;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 60px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+.link-button {
+  display: flex;
+  align-items: center;
+}
+
+.log-in-button {
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #e02c6d;
+  background-color: #e02c6d;
+
+  padding: 10px 24px;
+  box-sizing: border-box;
+  color: #fff;
+  box-shadow: 0px 0px 20px red;
+  cursor: pointer;
+}
 header {
   height: 670px;
   width: 100%;
@@ -19,14 +59,17 @@ header {
   font-weight: 900;
   margin: 0px;
   color: #ffffff;
+  line-height: 80px;
 }
 .top-blogs-detail {
   display: flex;
 }
 .top-blog-info {
-  margin-top: 240px;
-  margin-left: 156px;
-  margin-bottom: 240px;
+  /* 
+  
+  margin-bottom: 240px; */
+  margin-left: 135px;
+  margin-top: 100px;
 }
 
 .top-blog-button {
@@ -34,7 +77,7 @@ header {
   display: inline-block;
   border: 1px solid #e02c6d;
   background-color: #e02c6d;
-  border-radius: 30px;
+
   padding: 10px 24px;
   box-sizing: border-box;
   color: #fff;
@@ -48,10 +91,12 @@ header {
   transition: 0.4s ease;
 }
 .top-blog-banner {
-  margin-top: 150px;
+  /*
   margin-bottom: 86px;
   margin-right: 140px;
-  margin-left: 100px;
+  */
+  margin-left: 90px;
+  margin-top: 80px;
 }
 .top-blog-banner img {
   width: 556px;
@@ -133,7 +178,7 @@ main {
   display: inline-block;
   border: 1px solid #e02c6d;
   background-color: #e02c6d;
-  border-radius: 30px;
+
   padding: 10px 24px;
   box-sizing: border-box;
   color: #fff;
