@@ -14,6 +14,10 @@ nav {
   width: 100%;
   padding-top: 58px;
 }
+/* .link-button a:hover {
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3 0 0 8px #2196f3;
+} */
 .Nav-container {
   display: flex;
   justify-content: space-around;
@@ -54,6 +58,12 @@ header {
   width: 100%;
   background-color: #2d25a0;
   margin-bottom: 65px;
+}
+.top-container .top-blog-banner:hover {
+  z-index: 1;
+  transform: scale(1.15);
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+  transition: 0.6s ease;
 }
 
 .top-blog-title {
@@ -162,6 +172,12 @@ main {
   width: 1102px;
   height: 427px;
 }
+.container_2 .blog-image:hover {
+  z-index: 1;
+  transform: scale(1.15);
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+  transition: 0.6s ease;
+}
 
 .blogs {
   display: flex;
@@ -240,4 +256,16 @@ main {
 }
 .fab {
   color: #ccc;
+}
+
+/* -------------------------------
+		Mobile Devices Start
+---------------------------------*/
+@media only screen and (max-width: 688px) {
+  header {
+    height: 100%;
+  }
+  nav {
+    display: none;
+  }
 }
